@@ -24,10 +24,9 @@ name and run it by typing 'sudo {file manager name}'.
 
 1) Navigate to /etc/icecast2.
 
-2) Delete the folders "admin" and "web". Don't worry about this,
-the folders in this archive have everything needed to replace the
-old files. You can back up these folders elsewhere if you so
-desire.
+2) Back up the "admin" and "web" folders elsewhere in the event
+that you need to revert back. Once you have them backed up, go
+ahead and delete these folders from the Icecast directory.
 
 3) Copy the "admin" and "web" folders from the archive into
 /etc/icecast2.

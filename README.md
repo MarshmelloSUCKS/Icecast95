@@ -3,9 +3,10 @@ A theme for Icecast 2.4.4 made to emulate the appearance of Windows 95.
 
 ## Description
 Thanks for checking out my Icecast95 theme! This theme is made
-to work with Icecast 2.4.4 and has not yet been tested with
-other versions or the icecast-kh branch. It may work on other
-versions, but I won't guarantee it.
+to work with Icecast 2.4.4, and has been tested to work on the
+icecast-kh branch. This theme has not yet been tested with
+older Icecast versions. It may work on other versions, but I 
+won't guarantee it.
 
 The following are instructions on how to "install" this theme.
 These instructions were made with a Linux system in mind,

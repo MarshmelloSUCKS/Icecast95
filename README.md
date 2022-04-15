@@ -36,7 +36,7 @@ the paths section. Here you'll find this line:
 - `<webroot>/usr/share/icecast2/web</webroot>`
 
 Change the path in this line to `/etc/icecast2/web`. Do not worry
-about <adminroot>, you won't need to change this.
+about `<adminroot>`, you won't need to change this.
 
 5) Start your Icecast server if it isn't already running. If it is
 already running, restart it.

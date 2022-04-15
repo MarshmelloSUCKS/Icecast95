@@ -1,0 +1,51 @@
+= = = = = ICECAST95 Icecast 2.4.x Theme - msx.gay = = = = =
+
+Thanks for checking out my Icecast95 theme! This theme is made
+to work with Icecast 2.4.4 and has not yet been tested with
+other versions or the icecast-kh branch. It may work on other
+versions, but I won't guarantee it.
+
+The following are instructions on how to "install" this theme.
+These instructions were made with a Linux system in mind,
+specifically Ubuntu 20.04.
+
+= = = INSTALL INSTRUCTIONS = = =
+
+NOTE: You will need root privileges to do this. If the
+account you are using to do this does not have root privileges:
+- If doing this from the terminal, run "sudo su".
+- If doing this from a file manager, run your file manager
+as root. For Gnome setups, run 'sudo nautilus'. If you are
+using a different desktop environment, find your file manager
+name and run it by typing 'sudo {file manager name}'.
+
+1) Navigate to /etc/icecast2.
+
+2) Delete the folders "admin" and "web". Don't worry about this,
+the folders in this archive have everything needed to replace the
+old files. You can back up these folders elsewhere if you so
+desire.
+
+3) Copy the "admin" and "web" folders from the archive into
+/etc/icecast2.
+
+4) In your configuration file, likely icecast.xml, scroll down to
+the paths section. Here you'll find this line:
+- <webroot>/usr/share/icecast2/web</webroot>
+Change the path in this line to `/etc/icecast2/web`. Do not worry
+about <adminroot>, you won't need to change this.
+
+5) Start your Icecast server if it isn't already running. If it is
+already running, restart it.
+
+6) Navigate to the various pages and check to make sure everything
+works.
+
+NOTE: Windows will only appear on the status page if you are
+streaming to the server. If you are not streaming to the server
+and you only see the taskbar, nothing is broken.
+
+If everything is good, Icecast95 is "installed"! Enjoy!
+
+If you need help, reach out to me via email: msx.inbox@gmail.com
+

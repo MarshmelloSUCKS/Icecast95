@@ -1,0 +1,111 @@
+div.navbar {
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	bottom: 0px;
+	left: 0px;
+	background: #c3c3c3;
+	width: 100%;
+	height: 28px;
+	font-size: 10px;
+}
+div.navbar-inner {
+	position: absolute;
+	bottom: 24px;
+	left: 0px;
+	width: 100%;
+	border-top: 1px solid #ffffff;
+	padding-bottom: 2px;
+}
+div.button {
+	width: 158px;
+	height: 20px;
+	border-left: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #828282;
+	border-bottom: 1px solid #828282;
+	padding-left: 2px;
+}
+
+div.button span { 
+	position: relative;
+	top: -3px;
+	margin-left: 4px;
+	color: black;
+	font-family: 'MSSansSerif', sans-serif;
+	font-size: 13px;
+}
+
+div.button:after {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	background: none;
+	position: absolute;
+	bottom: -2px;
+	left: -1px;
+	width: 162px;
+	height: 22px;
+  	content: "";
+  	display: block;
+  	pointer-events: none;
+}
+
+div.button:active {
+	background: rgb(226, 226, 226);
+}
+
+div.button img {
+	padding-left: 2px;
+	padding-top: 2px;
+}
+
+div.titlebar {
+	height: 18px;
+	margin: 1px;
+	background: #000082;
+	color: white;
+	font-size: 12px;
+	padding-left: 2px;
+}
+div.titlebar span {
+	font-family: 'MSSansSerif-Bold', sans-serif;
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+div.spacing {
+	padding: 10px 20px;
+}
+img.close {
+	float: right;
+	width: 15px;
+	height: 13px;
+	padding: 2px;
+}
+
+/* POSITIONING FOR NAVBAR BUTTONS */
+#title {
+	position: absolute;
+	bottom: 2px;
+	left: 2px;
+}
+#link-admin {
+	position: absolute;
+	bottom: 2px;
+	left: 167px;
+}
+#link-stats {
+	position: absolute;
+	bottom: 2px;
+	left: 332px;
+}
+#link-vers {
+	position: absolute;
+	bottom: 2px;
+	left: 497px;
+}
+#link-ice {
+	position: absolute;
+	bottom: 2px;
+	left: 662px;
+}

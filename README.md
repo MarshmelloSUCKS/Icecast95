@@ -50,3 +50,11 @@ and you only see the taskbar, nothing is broken.
 If everything is good, Icecast95 is "installed"! Enjoy!
 
 If you need help, reach out to me via email: msx.inbox@gmail.com
+
+## Resource Credits
+  
+Fonts used:
+  - Body fonts: [ms_sans_serif.woff2](https://jdan.github.io/98.css/ms_sans_serif.woff2) and [ms_sans_serif_bold.woff2](https://jdan.github.io/98.css/ms_sans_serif_bold.woff2) from [98.css](https://jdan.github.io/98.css)
+  - Header font: [Bit Serif](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=9588) by Owen Compher
+
+Icons used: Windows 98 Icons

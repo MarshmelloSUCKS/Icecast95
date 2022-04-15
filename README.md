@@ -33,7 +33,8 @@ ahead and delete these folders from the Icecast directory.
 
 4) In your configuration file, likely icecast.xml, scroll down to
 the paths section. Here you'll find this line:
-- <webroot>/usr/share/icecast2/web</webroot>
+- `<webroot>/usr/share/icecast2/web</webroot>`
+
 Change the path in this line to `/etc/icecast2/web`. Do not worry
 about <adminroot>, you won't need to change this.
 

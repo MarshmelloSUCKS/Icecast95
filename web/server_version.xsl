@@ -103,7 +103,7 @@
 				</tr>
 				<tr>
 					<td>Theme:</td>
-					<td>Icecast95 theme made by IowanEASFan - <a href="https://msx.gay">msx.gay</a></td>
+					<td><a href="https://github.com/MarshmelloSUCKS/Icecast95">Icecast95 theme</a> made by IowanEASFan - <a href="https://msx.gay">msx.gay</a></td>
 				</tr>
 				<tr>
 					<td>Body Font:</td>

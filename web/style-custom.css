@@ -8,6 +8,7 @@ div.navbar {
 	width: 100%;
 	height: 28px;
 	font-size: 10px;
+	overflow: auto;
 }
 div.navbar-inner {
 	position: absolute;

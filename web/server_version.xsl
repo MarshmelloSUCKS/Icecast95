@@ -16,7 +16,7 @@
 			<span>Icecast2 Status</span>
 		</div>
 		
-		<a href="admin/">
+		<a href="admin/stats.xsl">
 			<div class="button" id="link-admin">
 				<img src="admn.png" width="auto" height="16" />
 				<span>Administration</span>

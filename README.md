@@ -49,10 +49,15 @@ streaming to the server. If you are not streaming to the server
 and you only see the taskbar, nothing is broken.
 
 NOTE 2: If you run into issues with Icecast being unable to display the XSLT file, use `chown` to transfer ownership of the files to the user running the Icecast server. Example, if `user` is running the Icecast instance, run the following:
+
 `chown user admin/`
+
 `chown user admin/*`
+
 `chown user web/`
+
 `chown user web/*`
+
 
 If everything is good, Icecast95 is "installed"! Enjoy!
 

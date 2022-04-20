@@ -52,7 +52,30 @@ div.button:after {
 }
 
 div.button:active {
-	background: rgb(226, 226, 226);
+	width: 158px;
+	height: 19px;
+	border-left: 1px solid #828282;
+	border-top: 1px solid #828282;
+	border-right: 1px solid #c3c3c3;
+	border-bottom: 1px solid #c3c3c3;
+	background: #e1e1e1;
+	background-image: url('ptrn-active.gif');
+}
+
+div.button:active:after {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	background: none;
+	position: absolute;
+	bottom: -2px;
+	left: -2px;
+	width: 162px;
+	height: 21px;
+  	content: "";
+  	display: block;
+  	pointer-events: none;
 }
 
 div.button img {
